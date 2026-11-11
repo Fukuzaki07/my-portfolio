@@ -1,14 +1,16 @@
 .header {
+    position: absolute;
+    top: 0;            /* ✨ 画面の一番上に配置する */
+    left: 0;           /* ✨ 画面の左端から配置する */
+    width: 100%;       /* ✨ 横幅を画面いっぱいに広げる */
     display: flex;
-    justify-content: space-between; /* 左側にH1、右側にメニューを離して配置 */
-    align-items: center;           /* 縦方向の位置を中央に揃える */
-    padding: 10px;                 /* 周りの余白 */
-    background-color: rgba(0, 0, 0, 0.5); /* ✨ 背景色を再設定 */
-    position: fixed;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* 左右の余白を少し調整すると綺麗に見えます */
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(8px);
-    box-sizing: border-box;
-    z-index: 100; /* ✨ 他のカードの裏に隠れるのを防ぐ */
+    box-sizing: border-box; /* width: 100% と padding を一緒に使うときはこれが必須！ */
+    z-index: 100;
 }
 
 header nav a {
