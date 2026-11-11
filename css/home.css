@@ -13,3 +13,7 @@ header nav a {
 .profile {
     text-align: center;
 }
+
+.profile span {
+    font-weight: bold;
+}
