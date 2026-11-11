@@ -3,8 +3,6 @@
     justify-content: space-between; /* 左側にH1、右側にメニューを離して配置 */
     align-items: center;           /* 縦方向の位置を中央に揃える */
     padding: 10px;                 /* 周りの余白 */
-    background-color: rgba(255, 255, 255, 0.5); /* ✨ 背景色を再設定 */
-    box-sizing: border-box;
 }
 
 header nav a {
