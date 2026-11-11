@@ -75,3 +75,41 @@ header nav a {
 .task01 a:hover {
     text-decoration: underline; /* マウスを乗せたときに下線を表示 */
 }
+
+.task02 {
+    background-color: #f9f9f9; /* 薄い背景色 */
+    border: 1px solid #e0e0e0;   /* 薄い枠線 */
+    border-radius: 8px;        /* 角を少し丸くする */
+    padding: 25px;             /* 内側の余白 */
+    margin-bottom: 30px;       /* 下のセクションとの隙間 */
+}
+
+/* タスクのタイトル */
+.task02 h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* task01の中にある画像を中央に配置する */
+.task02 img {
+    display: block;      /* 画像をブロック要素にして扱いやすくする */
+    margin-left: auto;   /* 左側の余白を自動で最大にする */
+    margin-right:  auto;  /* 右側の余白を自動で最大にする */
+    max-width: 600px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px; /* 画像同士の縦の隙間をあける場合 */
+}
+
+/* 詳細リンクのデザイン */
+.task02 a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.task02 a:hover {
+    text-decoration: underline; /* マウスを乗せたときに下線を表示 */
+}
