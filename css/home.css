@@ -12,16 +12,22 @@ header nav a {
     font-weight: bold;
 }
 
-}
 .profile {
-    padding:20px;
+    padding: 20px;
+    text-align: center; /* セクション全体を中央に寄せたい場合 */
 }
+
 .profile-text {
     background-color: #f9f9f9; /* 薄い背景色 */
     border: 1px solid #e0e0e0;   /* 薄い枠線 */
     border-radius: 8px;        /* 角を少し丸くする */
     padding: 25px;             /* 内側の余白 */
     margin-bottom: 30px;       /* 下のセクションとの隙間 */
+    
+    max-width: 400px;          /* ボックスが広がりすぎないように最大幅を制限 */
+    margin-left: auto;         /* 左右の余白を自動にしてボックス自体を真ん中に置く */
+    margin-right: auto;
+    text-align: left;          /* ボックスの中の文字は左揃えにする */
 }
 
 .profile span {
