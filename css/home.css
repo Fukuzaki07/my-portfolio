@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px; /* 左右の余白を少し調整すると綺麗に見えます */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(8px);
     box-sizing: border-box; /* width: 100% と padding を一緒に使うときはこれが必須！ */
     z-index: 100;
