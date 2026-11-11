@@ -14,6 +14,10 @@ header nav a {
     text-align: center;
 }
 
+.profile li {
+    list-style: none;
+}
+
 .profile span {
     font-weight: bold;
 }
