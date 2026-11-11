@@ -1,5 +1,5 @@
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;            /* ✨ 画面の一番上に配置する */
     left: 0;           /* ✨ 画面の左端から配置する */
     width: 100%;       /* ✨ 横幅を画面いっぱいに広げる */
@@ -21,7 +21,7 @@ header nav a {
 }
 
 .profile {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -33,7 +33,7 @@ header nav a {
     border: 1px solid #e0e0e0;   /* 薄い枠線 */
     border-radius: 8px;        /* 角を少し丸くする */
     padding: 25px;             /* 内側の余白 */
-    margin-bottom: 30px;       /* 下のセクションとの隙間 */
+    margin-bottom: 20px;       /* 下のセクションとの隙間 */
     max-width: 400px;          /* ボックスが広がりすぎないように最大幅を制限 */
     margin-right: auto;
     text-align: left;          /* ボックスの中の文字は左揃えにする */
@@ -54,7 +54,7 @@ header nav a {
     border: 1px solid #e0e0e0;   /* 薄い枠線 */
     border-radius: 8px;        /* 角を少し丸くする */
     padding: 25px;             /* 内側の余白 */
-    margin-bottom: 30px;       /* 下のセクションとの隙間 */
+    margin-bottom: 20px;       /* 下のセクションとの隙間 */
 }
 
 /* タスクのタイトル */
@@ -92,7 +92,7 @@ header nav a {
     border: 1px solid #e0e0e0;   /* 薄い枠線 */
     border-radius: 8px;        /* 角を少し丸くする */
     padding: 25px;             /* 内側の余白 */
-    margin-bottom: 30px;       /* 下のセクションとの隙間 */
+    margin-bottom: 20px;       /* 下のセクションとの隙間 */
 }
 
 /* タスクのタイトル */
