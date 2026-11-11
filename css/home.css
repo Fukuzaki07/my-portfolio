@@ -1,3 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* 左側にH1、右側にメニューを離して配置 */
+    align-items: center;           /* 縦方向の位置を中央に揃える */
+    padding: 20px;                 /* 周りの余白 */
+}
+
 header nav a {
     margin-right: 20px; /* リンク同士の間に余白を開ける */
     text-decoration: none; /* 下線を消す */
