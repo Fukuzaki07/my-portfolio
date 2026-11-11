@@ -19,6 +19,6 @@ header nav a {
 }
 
 .project img {
-    width: 300px; /* ここにお好みの大きさを指定 */
+    width: 500px; /* ここにお好みの大きさを指定 */
     height: auto; /* 高さは縦横比を崩さないために auto にするのが基本です */
 }
