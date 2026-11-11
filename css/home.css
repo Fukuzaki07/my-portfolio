@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 80px; /* 固定ヘッダーの高さに合わせて数値を調整してね */
+}
+
 body {
     padding-top: 80px; /* ✨ ヘッダーの高さ分だけ、ページの全体を押し下げる */
     margin: 0;
