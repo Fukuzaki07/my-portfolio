@@ -113,3 +113,7 @@ header nav a {
 .task02 a:hover {
     text-decoration: underline; /* マウスを乗せたときに下線を表示 */
 }
+
+.skill {
+    padding:20px;
+}
