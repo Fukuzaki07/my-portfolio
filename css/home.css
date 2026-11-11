@@ -14,7 +14,7 @@ header nav a {
 
 .profile {
     padding: 20px;
-    text-align: center; /* セクション全体を中央に寄せたい場合 */
+    text-align: left; /* セクション全体を中央に寄せたい場合 */
 }
 
 .profile-text {
