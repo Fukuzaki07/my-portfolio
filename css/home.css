@@ -7,7 +7,11 @@
 
 header nav a {
     margin-right: 20px; /* リンク同士の間に余白を開ける */
-    text-decoration: none; /* 下線を消す */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 }
 .profile {
     padding:20px;
@@ -49,9 +53,7 @@ header nav a {
     display: block;      /* 画像をブロック要素にして扱いやすくする */
     margin-left: auto;   /* 左側の余白を自動で最大にする */
     margin-right:  auto;  /* 右側の余白を自動で最大にする */
-    
-    /* これまでに設定していた他のスタイル（大きさなど）はそのまま残す */
-    max-width: 500px;
+    max-width: 800px;
     height: auto;
     border-radius: 4px;
     margin-bottom: 15px; /* 画像同士の縦の隙間をあける場合 */
