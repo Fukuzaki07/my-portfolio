@@ -1,3 +1,8 @@
+body {
+    padding-top: 80px; /* ✨ ヘッダーの高さ分だけ、ページの全体を押し下げる */
+    margin: 0;
+}
+
 .header {
     position: fixed;
     top: 0;            /* ✨ 画面の一番上に配置する */
@@ -21,10 +26,7 @@ header nav a {
 }
 
 .profile {
-    padding-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     text-align: left; /* セクション全体を中央に寄せたい場合 */
 }
 
