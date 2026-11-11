@@ -46,9 +46,10 @@ header nav a {
 
 /* スクショ画像のデザイン調整 */
 .task01 img {
-    max-width: 500px;          /* 大きくなりすぎないように制限 */
+    max-width: 700px;          /* 大きくなりすぎないように制限 */
     height: auto;              /* 縦横比を維持 */
     border-radius: 4px;        /* 画像の角を少し丸くする */
+    align-items:center;
 ｝
 /* 詳細リンクのデザイン */
 .task01 a {
