@@ -44,13 +44,19 @@ header nav a {
     color: #333;
 }
 
-/* スクショ画像のデザイン調整 */
+/* task01の中にある画像を中央に配置する */
 .task01 img {
-    max-width: 700px;          /* 大きくなりすぎないように制限 */
-    height: auto;              /* 縦横比を維持 */
-    border-radius: 4px;        /* 画像の角を少し丸くする */
-    align-items:center;
-｝
+    display: block;      /* 画像をブロック要素にして扱いやすくする */
+    margin-left: auto;   /* 左側の余白を自動で最大にする */
+    margin-right:  auto;  /* 右側の余白を自動で最大にする */
+    
+    /* これまでに設定していた他のスタイル（大きさなど）はそのまま残す */
+    max-width: 500px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px; /* 画像同士の縦の隙間をあける場合 */
+}
+
 /* 詳細リンクのデザイン */
 .task01 a {
     display: inline-block;
