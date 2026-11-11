@@ -12,6 +12,12 @@ header nav a {
 
 .profile {
     text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9; /* 薄い背景色 */
+    border: 1px solid #e0e0e0;   /* 薄い枠線 */
+    border-radius: 8px;        /* 角を少し丸くする */
+    padding: 25px;             /* 内側の余白 */
+    margin-bottom: 30px;       /* 下のセクションとの隙間 */
 }
 
 .profile span {
@@ -40,14 +46,10 @@ header nav a {
 
 /* スクショ画像のデザイン調整 */
 .task01 img {
-    width: 22%;                /* 横並びにするために幅を調整（4枚で約100%になるように） */
-    max-width: 200px;          /* 大きくなりすぎないように制限 */
+    max-width: 500px;          /* 大きくなりすぎないように制限 */
     height: auto;              /* 縦横比を維持 */
     border-radius: 4px;        /* 画像の角を少し丸くする */
-    margin: 10px 5px;          /* 画像周りの隙間 */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 薄い影をつけて立体感を出す */
-}
-
+｝
 /* 詳細リンクのデザイン */
 .task01 a {
     display: inline-block;
