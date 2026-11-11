@@ -9,10 +9,10 @@ header nav a {
     margin-right: 20px; /* リンク同士の間に余白を開ける */
     text-decoration: none; /* 下線を消す */
 }
-
 .profile {
-    text-align: left;
-    padding: 20px;
+    padding:20px;
+}
+.profile-text {
     background-color: #f9f9f9; /* 薄い背景色 */
     border: 1px solid #e0e0e0;   /* 薄い枠線 */
     border-radius: 8px;        /* 角を少し丸くする */
