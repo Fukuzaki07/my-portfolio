@@ -71,6 +71,7 @@ header nav a {
 
 /* task01の中にある画像を中央に配置する */
 .task01 img {
+    max-width: 100%;
     display: block;      /* 画像をブロック要素にして扱いやすくする */
     margin-left: auto;   /* 左側の余白を自動で最大にする */
     margin-right:  auto;  /* 右側の余白を自動で最大にする */
@@ -109,6 +110,7 @@ header nav a {
 
 /* task01の中にある画像を中央に配置する */
 .task02 img {
+    max-width: 100%;
     display: block;      /* 画像をブロック要素にして扱いやすくする */
     margin-left: auto;   /* 左側の余白を自動で最大にする */
     margin-right:  auto;  /* 右側の余白を自動で最大にする */
