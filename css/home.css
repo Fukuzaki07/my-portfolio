@@ -80,6 +80,7 @@ header nav a {
     height: auto;
     border-radius: 4px;
     margin-bottom: 15px; /* 画像同士の縦の隙間をあける場合 */
+    flex-wrap: wrap;
 }
 
 /* 詳細リンクのデザイン */
@@ -119,6 +120,7 @@ header nav a {
     height: auto;
     border-radius: 4px;
     margin-bottom: 15px; /* 画像同士の縦の隙間をあける場合 */
+    flex-wrap: wrap;
 }
 
 /* 詳細リンクのデザイン */
